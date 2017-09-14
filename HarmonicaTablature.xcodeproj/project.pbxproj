@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6496AF521F6A98C600F2AD9B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AF511F6A98C600F2AD9B /* AppDelegate.swift */; };
+		6496AF541F6A98C600F2AD9B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6496AF531F6A98C600F2AD9B /* ViewController.swift */; };
+		64D80DE81F6A9D13004BC46A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64D80DE21F6A9D13004BC46A /* Assets.xcassets */; };
+		64D80DF21F6A9DA0004BC46A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D80DF11F6A9DA0004BC46A /* Info.plist */; };
+		64D80DF51F6A9F7C004BC46A /* launchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D80DF31F6A9F7C004BC46A /* launchScreen.storyboard */; };
+		64D80DF61F6A9F7C004BC46A /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64D80DF41F6A9F7C004BC46A /* main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6496AF4E1F6A98C600F2AD9B /* harmonicaTablature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = harmonicaTablature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6496AF511F6A98C600F2AD9B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6496AF531F6A98C600F2AD9B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		64D80DE21F6A9D13004BC46A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		64D80DF11F6A9DA0004BC46A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64D80DF31F6A9F7C004BC46A /* launchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = launchScreen.storyboard; sourceTree = "<group>"; };
+		64D80DF41F6A9F7C004BC46A /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6496AF4B1F6A98C600F2AD9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6496AF451F6A98C600F2AD9B = {
+			isa = PBXGroup;
+			children = (
+				6496AF501F6A98C600F2AD9B /* HarmonicaTablature */,
+				6496AF4F1F6A98C600F2AD9B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6496AF4F1F6A98C600F2AD9B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6496AF4E1F6A98C600F2AD9B /* harmonicaTablature.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6496AF501F6A98C600F2AD9B /* HarmonicaTablature */ = {
+			isa = PBXGroup;
+			children = (
+				64D80DEB1F6A9D36004BC46A /* Models */,
+				64D80DEC1F6A9D36004BC46A /* ViewModels */,
+				64D80DED1F6A9D36004BC46A /* Provider */,
+				64D80DEE1F6A9D36004BC46A /* ViewControllers */,
+				64D80DEF1F6A9D36004BC46A /* Storyboards */,
+				64D80DDF1F6A9D13004BC46A /* WebServices */,
+				64D80DE01F6A9D13004BC46A /* Ressources */,
+				64D80DE21F6A9D13004BC46A /* Assets.xcassets */,
+				6496AF511F6A98C600F2AD9B /* AppDelegate.swift */,
+				6496AF531F6A98C600F2AD9B /* ViewController.swift */,
+			);
+			name = HarmonicaTablature;
+			path = harmonicaTablature;
+			sourceTree = "<group>";
+		};
+		64D80DDF1F6A9D13004BC46A /* WebServices */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = WebServices;
+			sourceTree = "<group>";
+		};
+		64D80DE01F6A9D13004BC46A /* Ressources */ = {
+			isa = PBXGroup;
+			children = (
+				64D80DF01F6A9D78004BC46A /* Plist */,
+				64D80DE11F6A9D13004BC46A /* Images */,
+			);
+			path = Ressources;
+			sourceTree = "<group>";
+		};
+		64D80DE11F6A9D13004BC46A /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		64D80DEB1F6A9D36004BC46A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		64D80DEC1F6A9D36004BC46A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		64D80DED1F6A9D36004BC46A /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		64D80DEE1F6A9D36004BC46A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		64D80DEF1F6A9D36004BC46A /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				64D80DF31F6A9F7C004BC46A /* launchScreen.storyboard */,
+				64D80DF41F6A9F7C004BC46A /* main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		64D80DF01F6A9D78004BC46A /* Plist */ = {
+			isa = PBXGroup;
+			children = (
+				64D80DF11F6A9DA0004BC46A /* Info.plist */,
+			);
+			path = Plist;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6496AF4D1F6A98C600F2AD9B /* harmonicaTablature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6496AF601F6A98C600F2AD9B /* Build configuration list for PBXNativeTarget "harmonicaTablature" */;
+			buildPhases = (
+				6496AF4A1F6A98C600F2AD9B /* Sources */,
+				6496AF4B1F6A98C600F2AD9B /* Frameworks */,
+				6496AF4C1F6A98C600F2AD9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = harmonicaTablature;
+			productName = harmonicaTablature;
+			productReference = 6496AF4E1F6A98C600F2AD9B /* harmonicaTablature.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6496AF461F6A98C600F2AD9B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				TargetAttributes = {
+					6496AF4D1F6A98C600F2AD9B = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 82V92TX438;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 6496AF491F6A98C600F2AD9B /* Build configuration list for PBXProject "HarmonicaTablature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6496AF451F6A98C600F2AD9B;
+			productRefGroup = 6496AF4F1F6A98C600F2AD9B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6496AF4D1F6A98C600F2AD9B /* harmonicaTablature */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6496AF4C1F6A98C600F2AD9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64D80DE81F6A9D13004BC46A /* Assets.xcassets in Resources */,
+				64D80DF51F6A9F7C004BC46A /* launchScreen.storyboard in Resources */,
+				64D80DF21F6A9DA0004BC46A /* Info.plist in Resources */,
+				64D80DF61F6A9F7C004BC46A /* main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6496AF4A1F6A98C600F2AD9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6496AF541F6A98C600F2AD9B /* ViewController.swift in Sources */,
+				6496AF521F6A98C600F2AD9B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		6496AF5E1F6A98C600F2AD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6496AF5F1F6A98C600F2AD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6496AF611F6A98C600F2AD9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82V92TX438;
+				INFOPLIST_FILE = "$(SRCROOT)/harmonicaTablature/Ressources/Plist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perso.harmonicaTablature.harmonicaTablature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6496AF621F6A98C600F2AD9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 82V92TX438;
+				INFOPLIST_FILE = "$(SRCROOT)/harmonicaTablature/Ressources/Plist/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.perso.harmonicaTablature.harmonicaTablature;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6496AF491F6A98C600F2AD9B /* Build configuration list for PBXProject "HarmonicaTablature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6496AF5E1F6A98C600F2AD9B /* Debug */,
+				6496AF5F1F6A98C600F2AD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6496AF601F6A98C600F2AD9B /* Build configuration list for PBXNativeTarget "harmonicaTablature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6496AF611F6A98C600F2AD9B /* Debug */,
+				6496AF621F6A98C600F2AD9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6496AF461F6A98C600F2AD9B /* Project object */;
+}
